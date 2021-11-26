@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .services {
+    .services__item {
+      img,
+      h5 {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.about__us {
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  min-height: 800px;
+
+  .about__us-logo {
+    background-image: url("./../../../img/symbol.png");
+    background-repeat: no-repeat;
+    background-position: center top 175px;
+    padding-bottom: 345px;
+
+    h1 {
+      font-size: 38px;
+      text-align: center;
+      padding-top: 358px;
+      z-index: 1;
+    }
+  }
+
+  .about__us__button {
+    button {
+      background: transparent;
+      outline: none;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid #FFFFFF;
+      align-items: flex-end;
+    }
+  }
+}

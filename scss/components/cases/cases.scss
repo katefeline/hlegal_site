@@ -1,0 +1,47 @@
+.cases {
+  background-color: white;
+
+  .cases__block {
+    border-radius: 12px;
+    margin: 40px 40px 30px;
+    background-color: $colour_softGrey;
+
+    //.cases__height__m {
+    //  height: 198px;
+    //}
+    //
+    //cases__height__l {
+    //  height: 255px;
+    //}
+
+    .cases__headline {
+      border: 1px solid white;
+      width: 433px;
+
+      h5 {
+        color: $colour_accent;
+        padding: 20px;
+      }
+    }
+
+    .cases__block__void {
+      width: 58%;
+    }
+
+    .cases__block__content {
+      padding-top: 105px;
+      border: 1px solid white;
+
+      h5 {
+        color: $colour_mainSoft;
+        padding: 0 20px;
+      }
+
+      p {
+        padding: 20px 20px 0 20px;
+        color: $colour_grey;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,66 @@
+.team {
+  .container {
+    .team__bg {
+      width: 99%;
+      background: rgba(202, 202, 219, 1);
+      border-radius: 0 0 12px 12px;
+      height: 10px;
+      z-index: 1;
+      margin: 0 auto;
+    }
+
+    .team__bg2 {
+      width: 98%;
+      background: rgba(231, 231, 242, 1);
+      border-radius: 0 0 12px 12px;
+      height: 10px;
+      margin: 0 auto;
+    }
+
+    .row {
+      border-radius: 12px;
+
+      .team__carousel__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(245, 245, 250, 1);
+
+        .carousel-inner {
+          .carousel-item {
+
+            h4 {
+              color: $colour_grey;
+            }
+
+            p {
+              color: $colour_grey;
+            }
+
+            a {
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 17px;
+              letter-spacing: 1px;
+              text-align: left;
+              color: $colour_blue;
+            }
+
+            .team__carousel__item {
+              display: flex;
+              flex-wrap: wrap;
+
+
+              .team__carousel__item__img {
+                width: calc(100% / 3);
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}
