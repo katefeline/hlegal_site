@@ -1,5 +1,10 @@
 .container {
   max-width: 1320px;
+  padding: 50px 60px;
+
+  @media (max-width: 992px) {
+    padding: 20px;
+  }
 }
 
 body {
@@ -68,4 +73,21 @@ article {
   letter-spacing: 0;
   text-align: left;
   color: black;
+}
+
+.header__p {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0;
+  text-align: left;
+  color: black;
+}
+
+article p {
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
 }

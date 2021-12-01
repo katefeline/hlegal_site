@@ -3,8 +3,10 @@
   justify-content: center;
 
   .about__text {
-    max-width: 640px;
+    width: 50%;
     margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
 
     h3 {
       padding-bottom: 30px;
@@ -15,8 +17,7 @@
     margin-left: 40px;
     padding-left: 22px;
     border-left: 4px solid #E6E6F0;
-    max-width: 412px;
-
+    width: 45%;
 
     h3::before {
       content: url("./../img/flag.png");
@@ -46,8 +47,68 @@
     }
   }
 
-  .about__photo {
+  .about__text__more {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
+.about__achievements {
+  border-radius: 12px 12px 0 0;
+  background-color: $colour_softGrey;
+
+  h4 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(50, 50, 100, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px;
   }
 
+  .about__achievements__logo__bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 109px;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 40px;
+
+    .about__achievements__logo__bg:last-child {
+      margin-right: 0;
+    }
+
+    img {
+      justify-content: center;
+    }
+  }
+
+  .pagination {
+    margin: auto;
+  }
+}
+
+body > main > div.about__photo.d-flex.col-12 > img {
+  width: 100%;
+}
+
+.page-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+
+  &:focus,
+  &:hover {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-image: url("./../img/ellipse_blue.png");
+    @extend %bg-img;
+    background-size: auto;
+  }
 }

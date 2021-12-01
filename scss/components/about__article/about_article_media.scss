@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+  .about {
+    padding-bottom: 20px;dd
+    .about__text {
+      width: 65%;
+    }
+    .about__advantages {
+      width: 30%;
+    }
+    .about__text__more {
+      h3 {
+      }
+    }
+  }
+}
+
+@media (max-width: 816px) {
+.about {
+  padding: 0;
+
+  .about__text {
+    width: 100%;
+  }
+  .about__advantages {
+    width: 100%;
+    border-left: none;
+    border-top: 4px solid #E6E6F0;
+    padding-left: 0;
+
+    h3, p {
+      justify-content: center;
+    }
+  }
+}
+}
