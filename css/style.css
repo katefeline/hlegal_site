@@ -159,6 +159,19 @@ header .header__absolute {
 header .header__absolute .container {
   padding: 0;
 }
+header .header__absolute .header__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__absolute .header__content .header__logo {
+  padding-left: 50px;
+  display: flex;
+}
+header .header__absolute .header__content .header__logo .header__p {
+  color: white;
+}
 header .header__absolute .header__content .header__sidebar {
   flex-direction: column;
 }
@@ -232,6 +245,12 @@ header .navbar-light .navbar-nav .nav-link {
 #selected {
   color: #F0145A;
   text-decoration: underline;
+}
+
+#selected__header {
+  margin-bottom: 2px;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 @media (max-width: 768px) {
@@ -410,6 +429,31 @@ header .header__au .header__au__sidebar .header__sidebar__contacts .header__fb-l
   line-height: 26px;
 }
 
+.services_experience .services__main-page .services__heading {
+  padding-bottom: 70px;
+  padding-top: 180px;
+}
+.services_experience .services__main-page .services__item {
+  margin-bottom: 58px;
+}
+.services_experience .services__main-page .services__item img {
+  background-color: white;
+  border-radius: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 92px;
+  height: 92px;
+}
+.services_experience .services__main-page .services__item h5 {
+  color: #24a3ff;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.services_experience .services__main-page .services__item p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
 @media (max-width: 768px) {
   .services .services__item img,
 .services .services__item h5 {
@@ -529,7 +573,6 @@ header .header__au .header__au__sidebar .header__sidebar__contacts .header__fb-l
 }
 .cases .cases__block {
   border-radius: 12px;
-  margin: 40px 40px 30px;
   background-color: #f5f5fa;
 }
 .cases .cases__block .cases__headline {

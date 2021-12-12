@@ -83,3 +83,36 @@
   }
 }
 
+.services_experience {
+  .services__main-page {
+    .services__heading {
+      padding-bottom: 70px;
+      padding-top: 180px;
+    }
+
+    .services__item {
+      margin-bottom: 58px;
+
+      img {
+        background-color: white;
+        border-radius: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 92px;
+        height: 92px;
+      }
+
+      h5 {
+        color: rgba(36, 163, 255, 1);
+        font-size: 24px;
+        padding-bottom: 15px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
