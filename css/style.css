@@ -93,6 +93,10 @@ article p {
   text-align: left;
 }
 
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("./../fonts/TTNorms/TTNorms-Regular.eot");
@@ -273,6 +277,19 @@ header .navbar-light .navbar-nav .nav-link {
     position: absolute;
     top: 60px;
   }
+
+  header .header__au {
+    flex-direction: column-reverse;
+  }
+  header .header__au .header__au__sidebar {
+    justify-content: space-between;
+  }
+  header .header__au .header__au__sidebar .header__sidebar__contacts .header__tel {
+    display: inline;
+  }
+  header .header__au .header__au__sidebar .header__sidebar__contacts p {
+    display: none;
+  }
 }
 @media (max-width: 1050px) {
   header .header__au .header__au__sidebar .header__sidebar__contacts span {
@@ -447,6 +464,66 @@ header .header__au .header__au__sidebar .header__sidebar__contacts .header__fb-l
   width: 33.3333333333%;
 }
 
+.member {
+  margin-bottom: 80px;
+}
+.member .member__photo {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.member .member__info {
+  width: 55%;
+}
+.member .member__info .member__contacts {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 4px solid #E6E6F0;
+}
+.member .member__info .member__contacts p {
+  color: #b3b3ba;
+}
+.member .member__info .member__contacts span {
+  color: #b3b3ba;
+  margin: 0 10px 20px;
+}
+.member .member__info .member__contacts a {
+  color: #24A3FF;
+}
+.member .member__info article {
+  margin-top: 40px;
+}
+.member .member__info h5 {
+  color: #323264;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 992px) {
+  .member .member__photo {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .member .member__info {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .member .member__info .member__contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .member .member__info .member__contacts span {
+    display: none;
+  }
+}
 .cases {
   background-color: white;
 }
@@ -688,10 +765,7 @@ footer .footer .footer__contacts #email {
   justify-content: center;
 }
 .about .about__text {
-  width: 50%;
   margin-right: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 .about .about__text h3 {
   padding-bottom: 30px;
@@ -732,8 +806,10 @@ footer .footer .footer__contacts #email {
 .about__achievements {
   border-radius: 12px 12px 0 0;
   background-color: #f5f5fa;
+  padding-top: 28px;
 }
 .about__achievements h4 {
+  margin-top: 28px;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
@@ -743,21 +819,14 @@ footer .footer .footer__contacts #email {
   font-weight: bold;
   padding-bottom: 30px;
 }
-.about__achievements .about__achievements__logo__bg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.about__achievements .about__achievements__logo .about__achievements__logo__background {
   width: 300px;
   height: 109px;
+  align-items: center;
   background-color: white;
   border-radius: 12px;
-  margin-right: 40px;
 }
-.about__achievements .about__achievements__logo__bg .about__achievements__logo__bg:last-child {
-  margin-right: 0;
-}
-.about__achievements .about__achievements__logo__bg img {
+.about__achievements .about__achievements__logo .about__achievements__logo__background img {
   justify-content: center;
 }
 .about__achievements .pagination {
@@ -785,11 +854,14 @@ body > main > div.about__photo.d-flex.col-12 > img {
   .about {
     padding-bottom: 20px;
   }
-  .about dd .about__text {
+  .about .about__text {
     width: 65%;
   }
   .about .about__advantages {
     width: 30%;
+  }
+  .about .about__achievements .about__achievements__logo .about__achievements__logo__background {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 816px) {
@@ -807,6 +879,45 @@ body > main > div.about__photo.d-flex.col-12 > img {
   }
   .about .about__advantages h3, .about .about__advantages p {
     justify-content: center;
+  }
+
+  #footer-address {
+    flex-direction: column;
+  }
+}
+.team__header h3 {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.team__gallery .team__gallery__content {
+  justify-content: space-between;
+}
+.team__gallery .team__gallery__content .team__gallery__item {
+  width: 29%;
+}
+.team__gallery .team__gallery__content .team__gallery__item img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.team__gallery .team__gallery__content .team__gallery__item h4 {
+  color: #323264;
+}
+.team__gallery .team__gallery__content .team__gallery__item p {
+  color: #b3b3ba;
+}
+
+@media (max-width: 768px) {
+  .team__gallery .team__gallery__content .team__gallery__item {
+    width: 49%;
+  }
+}
+@media (max-width: 576px) {
+  .team__gallery .team__gallery__content .team__gallery__item {
+    width: 100%;
   }
 }
 

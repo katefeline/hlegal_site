@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .team__gallery {
+    .team__gallery__content {
+      .team__gallery__item {
+        width: 49%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .team__gallery {
+    .team__gallery__content {
+      .team__gallery__item {
+        width: 100%;
+      }
+    }
+  }
+}

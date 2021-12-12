@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About us</title>
+    <title>Team Member Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="legal advise site">
     <meta name="keywords" content="html, css, scss, site, project">
@@ -20,12 +20,12 @@
                         <img src="./img/hlegals_logo_inverted.png" alt="hlegals logo">
                         <img src="./img/Slash.png" alt="slash symbol">
                         <p class="header__p">
-                            про нас
+                            команда
                         </p>
                         <img src="./img/Slash.png" alt="slash symbol">
                         <img src="./img/symbol_sm.png" alt="hlegals symbol">
                     </div>
-                    <div class="header__au__sidebar d-flex flex-wrap flex-column">
+                    <div class="header__au__sidebar d-flex flex-wrap flex-lg-column flex-row">
                         <div class="header__sidebar__contacts d-flex flex-wrap">
                             <div class="header__languages">
                                 <ul class="d-inline-flex">
@@ -56,13 +56,13 @@
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-19">
                                             <li class="nav-item">
-                                                <a class="nav-link" id="selected" aria-current="page" href="about.html">про нас</a>
+                                                <a class="nav-link" aria-current="page" href="about.html">про нас</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">послуги</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="team.html">команда</a>
+                                                <a class="nav-link" id="selected" href="#">команда</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">публікації</a>
@@ -82,97 +82,54 @@
         </div>
     </div>
 </header>
-
 <main>
-    <div class="about">
+    <div class="member">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="about__text col-lg-6 col-sm-12">
+            <div class="row d-flex flex-wrap col-md-12">
+                <div class="member__photo">
+                    <img src="./img/team/1.png" alt="director">
+                </div>
+                <div class="member__info d-flex flex-wrap">
                     <h3>
-                        Перевертаємо уявлення про юридичні послуги.
+                        Олександр Кац
                     </h3>
+                    <div class="member__contacts">
+                        <p>
+                            Керуючий партнер
+                        </p>
+                        <span>&#8226;</span>
+                        <a href="mailto:kac@hlegals.net">kac@hlegals.net</a>
+                        <span>&#8226;</span>
+                        <a href="https://www.linkedin.com/feed/">Профіль в LinkedIn</a>
+
+                    </div>
                     <article>
                         <p>
-                            Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                            Олександр очолює практику міжнародної торгівлі та шиппінгу. Він спеціалізується на вирішенні спорів, пов'язаних з купівлею-продажем сировинних товарів і перевезенням товарів морем.
                         </p>
                         <p>
-                            Prolegals – надійний бізнес-партнер, що підтверджується стабільним співробітництвом з міжнародними юридичними фірмами, довірою великих українських і міжнародних компаній, визнанням професійних рейтингів.
+                            Десис представляє інтереси судновласників, експедиторів, вантажовласників, морських агентів, контейнерних ліній, а також міжнародних банків і клубів P & I.
+                        </p>
+                    </article>
+                    <article>
+                        <h5>
+                            Освіта
+                        </h5>
+                        <p>
+                            Національний університет «Одеська юридична академія», магістр права.
+                        </p>
+                    </article>
+                    <article>
+                        <h5>
+                            Досвід роботи
+                        </h5>
+                        <p>
+                            До його професійного досвіду відноситься врегулювання суперечок за англійським правом і представництво інтересів в іноземних комерційних арбітражах, таких як GAFTA, FOSFA та LMAA. Данило також представляє інтереси клієнтів у державних судах України по аналогічним спорах, а також в МКАС і МАК при ТПП України
                         </p>
                     </article>
                 </div>
-                <div class="about__advantages col-lg-6 col-sm-12">
-                    <h3>
-                        10+
-                    </h3>
-                    <p>
-                        років релевантного досвіду
-                    </p>
-                    <h3>
-                        30+
-                    </h3>
-                    <p>
-                        активних клієнтів, які довіряють нам свої доручення щомісячно
-                    </p>
-                    <h3>
-                        500+
-                    </h3>
-                    <p>
-                        годин роботи «pro bono» щорічно
-                    </p>
-                </div>
             </div>
         </div>
-    </div>
-    <div class="about__photo d-flex col-12">
-        <img src="./img/our_team.png" alt="Our team">
-    </div>
-    <div class="about">
-        <div class="container">
-            <div class="row">
-                <div class="about__text d-flex flex-wrap col-12">
-                    <article class="col-lg-6 col-sm-12">
-                        <p>
-                            Історично незмінна юридична професія почала переформатовуватись в останні роки. Клієнти це відчувають, але юридичні фірми все ще опираються еволюції. Клієнти потребують зручності, простоти, прозорої оплати. Google, IBM WatsОn, Symantec Clearwell доводять, що технологічна революція в юридичних послугах розпочалася і стала неминучою.
-                        </p>
-                        <p>
-                            Якість — це те, про що ми піклуємося найбільше.
-                        </p>
-                        <p>
-                            Все просто. Якщо ви не задоволені нашою роботою, ми повернемо гроші. Ми довіряємо нашим клієнтам. І ми хочемо, щоб клієнти нам теж довіряли.
-                        </p>
-                    </article>
-                    <h3 class="col-lg-6 col-sm-12">
-                        Якість — це те, про що ми піклуємося найбільше.
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="about__achievements">
-        <h4 class="d-flex justify-content-center ">
-            Досягнення
-        </h4>
-        <div class="about__achievements__logo d-flex flex-wrap justify-content-between">
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_500.png" alt="legal achievement 1">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_award.png" alt="legal achievement 2">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_market.png" alt="legal achievement 3">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_handbook.png" alt="legal achievement 4">
-            </div>
-        </div>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_blue.png" alt="ellipse blue"></a></li>
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_light_blue.png" alt="ellipse light blue"></a></li>
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_light_blue.png" alt="ellipse light blue"></a></li>
-            </ul>
-        </nav>
     </div>
 </main>
 

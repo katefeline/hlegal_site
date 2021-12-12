@@ -1,16 +1,27 @@
 @media (max-width: 992px) {
   .about {
-    padding-bottom: 20px;dd
+    padding-bottom: 20px;
     .about__text {
       width: 65%;
     }
+
     .about__advantages {
       width: 30%;
     }
+
     .about__text__more {
       h3 {
       }
     }
+
+    .about__achievements {
+      .about__achievements__logo {
+        .about__achievements__logo__background {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
   }
 }
 
@@ -32,4 +43,8 @@
     }
   }
 }
+  #footer-address {
+    flex-direction: column;
+  }
 }
+

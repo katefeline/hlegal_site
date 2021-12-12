@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About us</title>
+    <title>Our Team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="legal advise site">
     <meta name="keywords" content="html, css, scss, site, project">
@@ -20,12 +20,12 @@
                         <img src="./img/hlegals_logo_inverted.png" alt="hlegals logo">
                         <img src="./img/Slash.png" alt="slash symbol">
                         <p class="header__p">
-                            про нас
+                            команда
                         </p>
                         <img src="./img/Slash.png" alt="slash symbol">
                         <img src="./img/symbol_sm.png" alt="hlegals symbol">
                     </div>
-                    <div class="header__au__sidebar d-flex flex-wrap flex-column">
+                    <div class="header__au__sidebar d-flex flex-wrap flex-lg-column flex-row">
                         <div class="header__sidebar__contacts d-flex flex-wrap">
                             <div class="header__languages">
                                 <ul class="d-inline-flex">
@@ -56,13 +56,13 @@
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-19">
                                             <li class="nav-item">
-                                                <a class="nav-link" id="selected" aria-current="page" href="about.html">про нас</a>
+                                                <a class="nav-link" aria-current="page" href="about.html">про нас</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">послуги</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="team.html">команда</a>
+                                                <a class="nav-link" id="selected" href="#">команда</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">публікації</a>
@@ -82,97 +82,107 @@
         </div>
     </div>
 </header>
-
 <main>
-    <div class="about">
+    <div class="team__header">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="about__text col-lg-6 col-sm-12">
-                    <h3>
-                        Перевертаємо уявлення про юридичні послуги.
-                    </h3>
-                    <article>
-                        <p>
-                            Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
-                        </p>
-                        <p>
-                            Prolegals – надійний бізнес-партнер, що підтверджується стабільним співробітництвом з міжнародними юридичними фірмами, довірою великих українських і міжнародних компаній, визнанням професійних рейтингів.
-                        </p>
-                    </article>
-                </div>
-                <div class="about__advantages col-lg-6 col-sm-12">
-                    <h3>
-                        10+
-                    </h3>
-                    <p>
-                        років релевантного досвіду
-                    </p>
-                    <h3>
-                        30+
-                    </h3>
-                    <p>
-                        активних клієнтів, які довіряють нам свої доручення щомісячно
-                    </p>
-                    <h3>
-                        500+
-                    </h3>
-                    <p>
-                        годин роботи «pro bono» щорічно
-                    </p>
-                </div>
+                <h3 class="col-9">
+                    Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                </h3>
             </div>
         </div>
     </div>
-    <div class="about__photo d-flex col-12">
-        <img src="./img/our_team.png" alt="Our team">
-    </div>
-    <div class="about">
+    <div class="team__gallery">
         <div class="container">
             <div class="row">
-                <div class="about__text d-flex flex-wrap col-12">
-                    <article class="col-lg-6 col-sm-12">
-                        <p>
-                            Історично незмінна юридична професія почала переформатовуватись в останні роки. Клієнти це відчувають, але юридичні фірми все ще опираються еволюції. Клієнти потребують зручності, простоти, прозорої оплати. Google, IBM WatsОn, Symantec Clearwell доводять, що технологічна революція в юридичних послугах розпочалася і стала неминучою.
-                        </p>
-                        <p>
-                            Якість — це те, про що ми піклуємося найбільше.
-                        </p>
-                        <p>
-                            Все просто. Якщо ви не задоволені нашою роботою, ми повернемо гроші. Ми довіряємо нашим клієнтам. І ми хочемо, щоб клієнти нам теж довіряли.
-                        </p>
-                    </article>
-                    <h3 class="col-lg-6 col-sm-12">
-                        Якість — це те, про що ми піклуємося найбільше.
-                    </h3>
+                <div class="team__gallery__content d-flex flex-wrap">
+                        <div class="team__gallery__item">
+                            <img class="team__member" src="./img/team/1.png" alt="photo 1">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Олександр Олександровський
+                                    </h4>
+                                    <p>
+                                        Керуючий партнер
+                                    </p>
+                                </div>
+                                <a href="team__member__page.html"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
+                        <div class="team__gallery__item">
+                            <img class="team__member" src="./img/team/3.png" alt="photo 3">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Оксана Кобзар
+                                    </h4>
+                                    <p>
+                                        Equity partner, Attorney-at-law
+                                    </p>
+                                </div>
+                                <a href="#"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
+                        <div class="team__gallery__item">
+                            <img class="team__member" src="./img/team/2.png" alt="photo 2">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Владислав Мельник
+                                    </h4>
+                                    <p>
+                                        Керуючий партнер
+                                    </p>
+                                </div>
+                                <a href="#"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
+                        <div class="team__gallery__item ">
+                            <img class="team__member"src="./img/team/4.png" alt="photo 4">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Оксана Кобзар
+                                    </h4>
+                                    <p>
+                                        Associate membe r of the board
+                                    </p>
+                                </div>
+                                <a href="#"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
+                        <div class="team__gallery__item ">
+                            <img class="team__member" src="./img/team/5.png" alt="photo 5">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Оксана Забужко
+                                    </h4>
+                                    <p>
+                                        Письменниця
+                                    </p>
+                                </div>
+                                <a href="#"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
+                        <div class="team__gallery__item">
+                            <img class="team__member" src="./img/team/6.png" alt="photo 6">
+                            <div class="team__gallery__text d-flex flex-wrap justify-content-between align-items-center">
+                                <div>
+                                    <h4>
+                                        Юрій Андрухович
+                                    </h4>
+                                    <p>
+                                        Письменник
+                                    </p>
+                                </div>
+                                <a href="#"><img src="./img/team/next.png" alt="press the button to find next page"></a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="about__achievements">
-        <h4 class="d-flex justify-content-center ">
-            Досягнення
-        </h4>
-        <div class="about__achievements__logo d-flex flex-wrap justify-content-between">
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_500.png" alt="legal achievement 1">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_award.png" alt="legal achievement 2">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_market.png" alt="legal achievement 3">
-            </div>
-            <div class="about__achievements__logo__background d-flex flex-wrap justify-content-center col-lg-4 col-md-6 col-sm-12">
-                <img src="./img/legal_handbook.png" alt="legal achievement 4">
-            </div>
-        </div>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_blue.png" alt="ellipse blue"></a></li>
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_light_blue.png" alt="ellipse light blue"></a></li>
-                <li class="page-item"><a class="page-link" href="#"><img src="./img/ellipse_light_blue.png" alt="ellipse light blue"></a></li>
-            </ul>
-        </nav>
     </div>
 </main>
 

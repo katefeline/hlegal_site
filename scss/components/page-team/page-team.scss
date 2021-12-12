@@ -1,0 +1,36 @@
+.team__header {
+
+    h3 {
+      font-size: 42px;
+      line-height: 50px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+}
+
+.team__gallery {
+
+
+  .team__gallery__content {
+    justify-content: space-between;
+    .team__gallery__item {
+      width: 29%;
+
+      img {
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: 20px;
+
+        .team__member {
+
+        }
+      }
+      h4 {
+        color: $colour_mainRegular;
+      }
+      p {
+        color: $colour_grey;
+      }
+    }
+  }
+}

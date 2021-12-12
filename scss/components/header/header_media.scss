@@ -68,6 +68,24 @@
       }
     }
   }
+
+  header {
+    .header__au {
+      flex-direction: column-reverse;
+
+      .header__au__sidebar {
+        justify-content: space-between;
+        .header__sidebar__contacts {
+          .header__tel {
+            display: inline;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1050px) {

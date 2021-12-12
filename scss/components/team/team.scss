@@ -64,3 +64,51 @@
 
   }
 }
+
+.member {
+  margin-bottom: 80px;
+  .member__photo {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 40px;
+  }
+
+  .member__info {
+    width: 55%;
+
+    .member__contacts {
+      display: flex;
+      align-items: stretch;
+      border-bottom: 4px solid #E6E6F0;
+
+      p {
+        color: $colour_grey;
+      }
+
+      span {
+        color: $colour_grey;
+        margin: 0 10px 20px;
+      }
+
+      a {
+        color: $colour_blue;
+      }
+    }
+
+    article {
+      margin-top: 40px;
+    }
+
+
+    h5 {
+      color: $colour_mainRegular;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+    }
+  }
+}

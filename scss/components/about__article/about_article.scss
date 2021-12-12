@@ -3,10 +3,7 @@
   justify-content: center;
 
   .about__text {
-    width: 50%;
     margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
 
     h3 {
       padding-bottom: 30px;
@@ -56,8 +53,10 @@
 .about__achievements {
   border-radius: 12px 12px 0 0;
   background-color: $colour_softGrey;
+  padding-top: 28px;
 
   h4 {
+    margin-top: 28px;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1px;
@@ -68,23 +67,18 @@
     padding-bottom: 30px;
   }
 
-  .about__achievements__logo__bg {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 109px;
-    background-color: white;
-    border-radius: 12px;
-    margin-right: 40px;
+  .about__achievements__logo {
 
-    .about__achievements__logo__bg:last-child {
-      margin-right: 0;
-    }
+    .about__achievements__logo__background {
+      width: 300px;
+      height: 109px;
+      align-items: center;
+      background-color: white;
+      border-radius: 12px;
 
-    img {
-      justify-content: center;
+      img {
+        justify-content: center;
+      }
     }
   }
 
