@@ -1,0 +1,95 @@
+.map {
+  .map__block {
+    .map__contacts {
+      width: 412px;
+      .map__border {
+        border-bottom: 4px solid #E6E6F0;
+        margin-bottom: 40px;
+
+        p {
+          color: $colour_mainRegular;
+        }
+      }
+
+      a {
+        color: $colour_mainRegular;
+      }
+    }
+
+    .map__form {
+      max-width: 527px;
+      background: #F5F5FA;
+      border-radius: 12px;
+      padding: 20px;
+
+      h3 {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 0;
+        text-align: left;
+      }
+
+      input, textarea {
+        display: block;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+      }
+
+      input {
+        width: 487px;
+        height: 47px;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        resize: none;
+        width: 487px;
+        height: 180px;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        color: rgba(179, 179, 186, 1);
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-left: 10px;
+      }
+
+      .button__send {
+        display: flex;
+        justify-content: center;
+        button {
+          box-shadow: 0 0 20px 0 rgba(36, 163, 255, 0.5);
+          background: #24A3FF;
+          color: white;
+          border-radius: 12px;
+          padding: 16px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+#facebook__link {
+  color: $colour_blue;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px;
+  max-width: 120px;
+}
+
+#map__email {
+  margin: 20px 0 40px;
+  color: $colour_blue;
+  display: block;
+}

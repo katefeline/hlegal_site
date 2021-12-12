@@ -87,39 +87,48 @@
     <div class="map">
         <div class="container">
             <div class="row">
-                <div class="map__block">
+                <div class="map__block d-flex flex-wrap justify-content-around align-items-center">
                     <div class="map__contacts">
-                        <p>
-                            Одеса,
-                        </p>
-                        <p>
-                            Адміральський пр., 3
-                        </p>
-                        <a href="tel:+380503901595">+38 (050) 390 15 95</a>
-                        <a href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                        <div class="map__border">
+                            <p>
+                                Одеса,
+                            </p>
+                            <p>
+                                Адміральський пр., 3
+                            </p>
+                        </div>
+                        <div class="map__border">
+                            <a id="map__telephone" href="tel:+380503901595">+38 (050) 390 15 95</a>
+                            <a id='map__email' href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                        </div>
                         <div>
                             <img src="./img/facebook_blue.png" alt="facebook link">
-                            <a href="https://www.facebook.com/">Наша сторінка в фейсбуці</a>
+                            <a id='facebook__link' href="https://www.facebook.com/">Наша сторінка в фейсбуці</a>
                         </div>
                     </div>
                     <div class="map__form">
-                        <form action="">
+                        <form action="post">
                             <h3>
                                 Ми хотіли б Вам допомогти
                             </h3>
                             <input type="text" placeholder="Iм’я">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Повідомлення"></textarea>
+                            <textarea name="" id="" placeholder="Повідомлення"></textarea>
                             <h4>
                                 Як вам відповісти?
                             </h4>
                             <input type="tel" placeholder="Номер телефона">
                             <input type="email" placeholder="Чи email">
-                            <button>Надіслати запит</button>
+                            <div class="button__send">
+                                <button>Надіслати запит</button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <img src="./img/map.png" alt="how to find us on map">
     </div>
 </main>
 

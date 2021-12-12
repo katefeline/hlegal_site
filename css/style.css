@@ -920,5 +920,87 @@ body > main > div.about__photo.d-flex.col-12 > img {
     width: 100%;
   }
 }
+.map .map__block .map__contacts {
+  width: 412px;
+}
+.map .map__block .map__contacts .map__border {
+  border-bottom: 4px solid #E6E6F0;
+  margin-bottom: 40px;
+}
+.map .map__block .map__contacts .map__border p {
+  color: #323264;
+}
+.map .map__block .map__contacts a {
+  color: #323264;
+}
+.map .map__block .map__form {
+  max-width: 527px;
+  background: #F5F5FA;
+  border-radius: 12px;
+  padding: 20px;
+}
+.map .map__block .map__form h3 {
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.map .map__block .map__form input, .map .map__block .map__form textarea {
+  display: block;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+.map .map__block .map__form input {
+  width: 487px;
+  height: 47px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.map .map__block .map__form textarea {
+  resize: none;
+  width: 487px;
+  height: 180px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.map .map__block .map__form h4 {
+  color: #b3b3ba;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 10px;
+}
+.map .map__block .map__form .button__send {
+  display: flex;
+  justify-content: center;
+}
+.map .map__block .map__form .button__send button {
+  box-shadow: 0 0 20px 0 rgba(36, 163, 255, 0.5);
+  background: #24A3FF;
+  color: white;
+  border-radius: 12px;
+  padding: 16px;
+  justify-content: center;
+}
+
+#facebook__link {
+  color: #24A3FF;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px;
+  max-width: 120px;
+}
+
+#map__email {
+  margin: 20px 0 40px;
+  color: #24A3FF;
+  display: block;
+}
 
 /*# sourceMappingURL=style.css.map */
